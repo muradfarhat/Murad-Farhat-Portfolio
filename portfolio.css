@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(77, 77, 162);
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    display: flex; 
+    width: 60%;
+    margin: auto;
+}
+
+.container1 {
+    /* border: 2px solid black; */
+    margin: 50px auto 50px 20px;
+    width: 60%;
+    padding: 20px;
+}
+
+.det {
+    color: white;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.container2 {
+    /* border: 2px solid black; */
+    margin: 50px 0 50px auto;
+    width: 20%;
+    height: 200px;
+    background-image: url("IMG_2672.jpg");
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.about, .edu, .skills {
+    width: 50%;
+    margin: 30px auto;
+    color: white;
+    padding: 0 20px;
+    
+}
+
+.skills td{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+
